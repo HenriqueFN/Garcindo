@@ -11,9 +11,9 @@ using Atividade;
 
 namespace Atividade
 {
-    public partial class Consulta : Form
+    public partial class FormConsulta : Form
     {
-        public Consulta()
+        public FormConsulta()
         {
             InitializeComponent();
         }
@@ -22,8 +22,25 @@ namespace Atividade
         {
             for (int i = 0; i < Atividade.count; i++)
             {
-                MessageBox.Show(Atividade.nomes[i] + Atividade.idades[i]);
+                VNome1.Text = Atividade.nomes[i].ToString();
+                
+                //  MessageBox.Show(Atividade.nomes[i] + Atividade.idades[i]);
             }
+        }
+
+        private void FormConsulta_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
