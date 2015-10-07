@@ -33,7 +33,6 @@ namespace Atividade
                 else {
                     Atividade.nomes[Atividade.count] = nome.Text;
                     Atividade.idades[Atividade.count] = int.Parse(idade.Text);
-                    MessageBox.Show(Atividade.count.ToString());
                     Atividade.count++;
                     this.Close();
                 }
@@ -45,6 +44,11 @@ namespace Atividade
         private void fechar_Click(object sender, EventArgs e)
         {
             this.Hide();
+        }
+
+        private void nome_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

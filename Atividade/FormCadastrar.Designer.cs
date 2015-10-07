@@ -43,6 +43,7 @@
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(100, 20);
             this.nome.TabIndex = 0;
+            this.nome.TextChanged += new System.EventHandler(this.nome_TextChanged);
             // 
             // idade
             // 
