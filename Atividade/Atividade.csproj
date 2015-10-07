@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consulta.cs">
+    <Compile Include="FormConsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consulta.Designer.cs">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <Compile Include="FormConsulta.Designer.cs">
+      <DependentUpon>FormConsulta.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCadastrar.cs">
       <SubType>Form</SubType>
@@ -68,8 +68,8 @@
     <Compile Include="nomes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Consulta.resx">
-      <DependentUpon>Consulta.cs</DependentUpon>
+    <EmbeddedResource Include="FormConsulta.resx">
+      <DependentUpon>FormConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCadastrar.resx">
       <DependentUpon>FormCadastrar.cs</DependentUpon>

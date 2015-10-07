@@ -21,7 +21,7 @@ namespace Atividade
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (nome.Text == "" || idade.Text == "")
+            if (nome.Text == "" || idade.Text == "" || numero.Text == "")
             {
                 MessageBox.Show("Preencha todos os campos");
             }

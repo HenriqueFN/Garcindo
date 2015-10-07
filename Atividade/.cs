@@ -45,7 +45,7 @@ namespace Atividade
 
         private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Consulta newform = new Consulta();
+            FormConsulta newform = new FormConsulta();
             newform.Show();
         }
     }
